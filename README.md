@@ -18,7 +18,12 @@ you can download the data from here : https://www.dropbox.com/s/45uw7mbh7iv7ppw/
 # Groups of Variable 
 [Add different groups of variables here which will go through same data processing pipelines]
 
-# Notes : 
+# Notes :
+
+* Base File Stats:
+** Total records: 4,78,421
+** 18 Columns in base file
+* 
 
 * give **good** reasons if you decide to drop any of the variables 
 * for text columns you can use tfidfVectorizer from sklearn [write your own class which makes use of it internally .you will find it here : sklearn.feature_extraction.text.TfidfVectorizer ] . A simple object of this class will do the job and you can use it as is in your custom class .
