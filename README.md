@@ -31,3 +31,30 @@ TfidfVectorizer(analyzer='word',stop_words='english',max_df=0.8,min_df=0.01,max_
 
 Fork this repo and get working . Once done please raise a pull request which i will review and suggest changes if any needed . 
 
+## Example on how you could have written your own version of standard scaler 
+
+```python
+class pdStdScaler(BaseEstimator, TransformerMixin):
+
+    def __init__(self):
+
+        self.feature_names=[]
+        self.std=StandardScaler()
+
+
+    def fit(self,x,y=None):
+
+        self.std.fit(x)
+        self.feature_names=x.columns
+
+        return self
+
+    def transform(self,X):
+
+        return(pd.DataFrame(data=self.std.transform(X),columns=self.feature_names))
+
+    def get_feature_names(self):
+
+        return self.feature_names
+```
+
