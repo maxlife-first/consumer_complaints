@@ -352,19 +352,19 @@ class tfidf(BaseEstimator,TransformerMixin):
     def __init__(self):
         
         self.feature_names=[]
-        model=TfidfVectorizer(analyzer='word',stop_words='english',max_df=0.8,min_df=0.01,max_features=200)
+        self.model=TfidfVectorizer(analyzer='word',stop_words='english',max_df=0.8,min_df=0.01,max_features=200)
     
     def fit(self,x,y=None):
 
         self.feature_names=x.columns
-        
+        self.fitted=self.model.fit(x['col'])
         return self 
     
     def transform(self,x) :
         
         for col in x.columns:
 
-            abc=model.fit_transform(x[col])
+            abc=seld.fitted.transform(x[col])
         
         return abc.toarray()
 
