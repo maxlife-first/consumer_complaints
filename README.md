@@ -38,7 +38,11 @@ you can download the data from here : https://www.dropbox.com/s/45uw7mbh7iv7ppw/
  'V17': 'Consumer disputed?',
  'V18': 'Complaint ID'
  
- * Conisderations:
+ * # Conisderations:
+ * 1. convert to date type: V1, V14
+* 2. impute missing, create dummies: V2,V4,V7 v8,V9,v10, V11,v12,v13,v15,v16, v17,  V3, V5 - very low fill rate;
+* 3. drop: v18 complaint id is not useful 
+* 4. text pre-process: v6, V7
 
 # Notes :
 
