@@ -8,11 +8,22 @@ you can download the data from here : https://www.dropbox.com/s/45uw7mbh7iv7ppw/
 [ add list of data processing classes that you will be making use of ]
 
 * VarSelector 
-* ...
-* ...
+* DataFrameImputer
+* convert_to_datetime
+* creat_dummies
+* vectorize
+* cyclic_features
+* pdStdScaler
+*
 
 # Groups of Variable 
 [Add different groups of variables here which will go through same data processing pipelines]
+
+* p1- 'Date received' , 'Date sent to company'
+* p2- 'Sub-Product', 'Sub-issue', 'Company public response','State', 'ZIP code', 'Tags','Consumer consent provided?'
+* p3= 'Product', 'Issue', 'Submitted via', 'Company response to consumer', 'Timely response?','Consumer disputed?'
+* p4= 'Consumer complaint narrative'
+                            
 
 # Notes : 
 
