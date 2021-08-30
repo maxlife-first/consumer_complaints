@@ -27,6 +27,7 @@ TfidfVectorizer(analyzer='word',stop_words='english',max_df=0.8,min_df=0.01,max_
 * The reason you might want to write your own custom classes for TfidfVectorizer : It doesnt return pandas dataframe by default . It returns a sparse matrix instead which you can convert to dense numpy array using `.toarray()` . It does have `get_feature_names` function which you can make use of.
 * Similarly standard scaler also returns an array instead of a pandas dataframe. Additionally it doesnt have any `get_feature_names` functions . 
 * Please include a text file named `.gitignore' in your local repo and use it to exclude big data files from being uploaded to the repo [google for how to use it ]
-* Have two python [.py] files added . one for the custom classes and another for 
+* Have two python [.py] files added . one for the custom classes and another for where you make use of these classes to build a pipeline . If in the process you end up using any additional files , please make sure that you add them to .gitignore 
 
-Fork this repo and get working . Once done please do a pull request which i will review .
+Fork this repo and get working . Once done please raise a pull request which i will review and suggest changes if any needed . 
+
