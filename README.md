@@ -18,6 +18,28 @@ you can download the data from here : https://www.dropbox.com/s/45uw7mbh7iv7ppw/
 # Groups of Variable 
 [Add different groups of variables here which will go through same data processing pipelines]
 
+* List of variables present
+** V1': 'Date received',
+ 'V2': 'Product',
+ 'V3': 'Sub-product',
+ 'V4': 'Issue',
+ 'V5': 'Sub-issue',
+ 'V6': 'Consumer complaint narrative',
+ 'V7': 'Company public response',
+ 'V8': 'Company',
+ 'V9': 'State',
+ 'V10': 'ZIP code',
+ 'V11': 'Tags',
+ 'V12': 'Consumer consent provided?',
+ 'V13': 'Submitted via',
+ 'V14': 'Date sent to company',
+ 'V15': 'Company response to consumer',
+ 'V16': 'Timely response?',
+ 'V17': 'Consumer disputed?',
+ 'V18': 'Complaint ID'
+ 
+ * Conisderations:
+
 # Notes :
 
 * Base File Stats:
