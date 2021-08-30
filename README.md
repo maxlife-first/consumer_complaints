@@ -8,7 +8,11 @@ you can download the data from here : https://www.dropbox.com/s/45uw7mbh7iv7ppw/
 [ add list of data processing classes that you will be making use of ]
 
 * VarSelector 
-* ...
+*  DataFrameImputer(
+*  string_clean
+*  custom_fico
+*  creat_dummies
+*  custom_el
 * ...
 
 # Groups of Variable 
